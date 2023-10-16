@@ -17,7 +17,40 @@ In this project, I undertook the exciting challenge of developing a Movie Recomm
 ### Analysis and results
 ![Clusters Image](/Unknown-2.png)
 
+## Movie Recommendation System - User Clusters Analysis
+
+In our movie recommendation system, we applied K-means clustering with the elbow method to categorize users into distinct clusters based on their movie-watching behavior. This clustering approach helps us understand different segments of our audience, allowing us to provide more personalized movie recommendations.
+
+### Cluster Summary
+
+We have identified a total of 7 distinct user clusters:
+
+1. **Cluster 1**:
+    - This is the second largest cluster, containing over 20,000 individuals.
+    - Users in this cluster exhibit common movie-watching preferences and behaviors.
+    - Recommendations tailored to this group should appeal to a wide audience.
+
+2. **Cluster 2**:
+    - Similar to Cluster 1, this cluster also includes over 20,000 individuals.
+    - These users share common movie interests but may have some variations in their viewing habits.
+    - Recommendations for this cluster should cater to popular movie tastes.
+
+3. **Cluster 3**:
+    - Cluster 3 is one of the rarer groups, with fewer than 5,000 individuals.
+    - Users in this cluster have distinctive movie preferences.
+    - Targeted recommendations should focus on niche content to engage this group effectively.
+
+4. **Cluster 4**:
+    - Like Cluster 3, this cluster is smaller, with fewer than 5,000 individuals.
+    - These users exhibit unique movie-watching patterns, different from the larger clusters.
+    - Personalized recommendations should account for these distinctive tastes.
+
+Understanding these user clusters is crucial for tailoring movie recommendations to various audience segments, enhancing the overall user experience.
+
+
 ![Cluster Correlation_Image](/Unknown-3.png)
+
+
 
 ### Conclusion
 The Movie Recommendation System project showcases my expertise in leveraging data analytics and machine learning to enhance user satisfaction. From in-depth exploratory analysis to seamless PyTorch integration and meticulous data preparation, every aspect of the project was meticulously executed. The successful implementation of cluster analysis underscored my commitment to delivering tailored recommendations based on individual user preferences. This project exemplifies my dedication to data-driven solutions that elevate user-centric applications.
