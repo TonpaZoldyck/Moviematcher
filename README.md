@@ -14,5 +14,10 @@ In this project, I undertook the exciting challenge of developing a Movie Recomm
 
 - **Optimal Model Selection:** Through a rigorous evaluation process, I identified the Random Forest model as the optimal choice for our recommendation system. Its ability to handle complex data and deliver accurate predictions significantly enhanced the user experience.
 
+### Analysis and results
+![Clusters Image](/Unknown-2.png)
+
+![Cluster Correlation_Image](/Unknown-3.png)
+
 ### Conclusion
 The Movie Recommendation System project showcases my expertise in leveraging data analytics and machine learning to enhance user satisfaction. From in-depth exploratory analysis to seamless PyTorch integration and meticulous data preparation, every aspect of the project was meticulously executed. The successful implementation of cluster analysis underscored my commitment to delivering tailored recommendations based on individual user preferences. This project exemplifies my dedication to data-driven solutions that elevate user-centric applications.
