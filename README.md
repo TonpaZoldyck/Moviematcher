@@ -17,11 +17,9 @@ In this project, I undertook the exciting challenge of developing a Movie Recomm
 ### Analysis and results
 ![Clusters Image](/Unknown-2.png)
 
-## Movie Recommendation System - User Clusters Analysis
-
 In our movie recommendation system, we applied K-means clustering with the elbow method to categorize users into distinct clusters based on their movie-watching behavior. This clustering approach helps us understand different segments of our audience, allowing us to provide more personalized movie recommendations.
 
-### Cluster Summary
+**Cluster Summary**
 
 We have identified a total of 7 distinct user clusters:
 
@@ -50,6 +48,29 @@ Understanding these user clusters is crucial for tailoring movie recommendations
 
 ![Cluster Correlation_Image](/Unknown-3.png)
 
+## Correlation Analysis - Movie Recommendation System
+
+In our movie recommendation system, we performed a correlation analysis to understand how various features in the dataset relate to the user clusters created using K-means. This analysis provides insights into the factors influencing cluster definitions and offers guidance on personalized movie recommendations.
+
+### Key Findings
+
+**Negatively Correlated Features:**
+
+- **Genre Types:** Notably, genres such as *Drama*, *Romance*, and *Crime* show negative correlations with certain user clusters. This suggests that users in these clusters tend to have less interest in movies from these genres.
+
+- **Rating:** The rating given by users plays a significant role in defining user clusters. This is expected since we used ratings to create the clusters. Users in different clusters exhibit varying rating patterns.
+
+- **Enjoyment:** The level of enjoyment expressed by users while watching a movie also contributes to cluster definitions. It's clear that users in different clusters have varying enjoyment preferences, influencing their cluster assignment.
+
+**Positively Correlated Features:**
+
+- **Movie ID and User ID:** Interestingly, the features "Movie ID" and "User ID" exhibit positive correlations with cluster definitions. This suggests that certain movies and individual users are closely associated with particular clusters. It could be that specific movies or user preferences strongly align with certain cluster characteristics.
+
+The correlation analysis sheds light on the underlying factors that define our user clusters in the movie recommendation system. We find that genre types, ratings, and enjoyment levels have a significant impact on cluster assignments. This information is valuable for generating personalized movie recommendations for our users.
+
+Additionally, the positive correlations between "Movie ID" and "User ID" and cluster definitions highlight the potential to further customize recommendations based on individual movie and user preferences within these clusters.
+
+By leveraging these insights, we can enhance the user experience by providing tailored movie suggestions that align with the preferences and behaviors of each user cluster.
 
 
 ### Conclusion
